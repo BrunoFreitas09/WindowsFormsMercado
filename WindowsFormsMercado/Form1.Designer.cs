@@ -39,10 +39,10 @@
             this.txtQtd = new System.Windows.Forms.TextBox();
             this.txtVal = new System.Windows.Forms.TextBox();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.lblTotal = new System.Windows.Forms.Label();
             this.col_produto = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.col_quant = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.col_Val = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.lblTotal = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -148,15 +148,6 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Location = new System.Drawing.Point(427, 454);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(13, 13);
-            this.lblTotal.TabIndex = 11;
-            this.lblTotal.Text = "0";
-            // 
             // col_produto
             // 
             this.col_produto.Text = "Produto";
@@ -171,6 +162,15 @@
             // 
             this.col_Val.Text = "Valor";
             this.col_Val.Width = 100;
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(427, 454);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(13, 13);
+            this.lblTotal.TabIndex = 11;
+            this.lblTotal.Text = "0";
             // 
             // Form1
             // 
